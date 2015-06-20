@@ -1,0 +1,87 @@
+--first create the folder on desktop and name as python folder
+--second install the git software on windows 
+		1. Click as administrater and click run
+		2. Click next after that in pop-up window,there are multiple services just check the "Additional icons" and click next.
+		3. choose the second option and click next
+		4. choose the windows-style and click next
+		5. click next to proceed successful installation
+--Configure the Git-hub in windows after installation :
+* step 1: open cmd and just click the git
+* Step 2 :initialize the git init
+	cmd>c:\user\kumar\Desktop\Python>git init
+
+* Step 3 :check the status
+	cmd> C:\user\kumar\Desktop\Python>git status
+
+* Step 4 : Configure the global user name
+	cmd> C:\user\kumar\Desktop\Python>git config --global user.name "Use_gitusername"
+
+* Step 5 : Configure the global user email
+	cmd> C:\user\kumar\Desktop\Python>git config --global user.email example123@gmail.com
+
+* Step 6 :
+	cmd> C:\user\kumar\Desktop\Python>git config --list
+
+* Step 7 : again initialize 
+	cmd> C:\user\kumar\Desktop\Python>git init
+	cmd> C:\user\kumar\Desktop\Python>git status
+
+* Step 8 :For storring file into git-hub there are three operation are used:
+		* add
+		* commit
+		* push
+
+* Step 9 :
+	cmd> C:\user\kumar\Desktop\Python>git init
+--After initialization in python folder there are hidden file is created
+
+* Step 10 : Check the status
+	cmd> C:\user\kumar\Desktop\Python>git status
+
+* Step 11 : Add the file into git hub (using git add .)
+	cmd> C:\user\kumar\Desktop\Python>git add . 
+* Step 12 : Check status again
+	cmd> C:\user\kumar\Desktop\Python>git status
+
+* Step 13 : Commit
+	cmd> C:\user\kumar\Desktop\Python>git commit -m "Commit here"
+
+* Step 14 : push origin master
+	cmd> C:\user\kumar\Desktop\Python>git push origin master
+
+* step 15 : Now go to github.com login and create a new repository. open the cmd again and add the url from github.com which is right side inside the github
+
+* Step 16: Connect to github.com
+	cmd> C:\user\kumar\Desktop\Python>git remote add origin https://github.com/kumargaurav12/Python.git
+
+* Step 17: 
+	cmd> C:\user\kumar\Desktop\Python>git origin
+	cmd> C:\user\kumar\Desktop\Python>git branch
+	cmd> C:\user\kumar\Desktop\Python>git remote add origin https://github.com/kumargaurav12/Python.git
+
+* Step 18 :
+	cmd> C:\user\kumar\Desktop\Python>git origin
+	cmd> C:\user\kumar\Desktop\Python>git branch
+	* master
+----Now you are connected to git hub
+* Step 19 : Now push the file into git-hub server
+	cmd> C:\user\kumar\Desktop\Python>git push origin master
+----After that add your git username and password
+
+* Step 20 :
+	cmd> C:\user\kumar\Desktop\Python>git pull https://github.com/kumargaurav12/Python.git
+
+* Step 21 :
+	cmd> C:\user\kumar\Desktop\Python>git pull origin master
+	Username :
+	password :
+	cmd> C:\user\kumar\Desktop\Python>git status
+	cmd> C:\user\kumar\Desktop\Python>git log
+
+* Step 22 : Now change somthing in your python file
+	cmd> C:\user\kumar\Desktop\Python>git status
+----you seen the modified file on github.com
+	cmd> C:\user\kumar\Desktop\Python>git add .
+	cmd> C:\user\kumar\Desktop\Python>git commit -m "four file has been changed"
+	cmd> C:\user\kumar\Desktop\Python>git push
+	
